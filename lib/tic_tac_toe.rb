@@ -102,9 +102,6 @@ class TicTacToe
   end
 end
   
-  def over?(board)
-  won?(board) || draw?(board)
-end
+  
 
-end
 end
