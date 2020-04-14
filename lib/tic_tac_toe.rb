@@ -90,8 +90,8 @@ def won?
   return false
 end
 
-def full?(board)
-  board.all?{|token| token == "X" || token == "O"}
+def full?
+  @board.all? {|index| index == "X" || index == "O"}
 end
   
 end
