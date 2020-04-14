@@ -104,6 +104,6 @@ class TicTacToe
   def over?(board)
   won?(board) || draw?(board)
 end
-game.over?
+
 end
 end
