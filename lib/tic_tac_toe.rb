@@ -48,4 +48,6 @@ def turn_count
   return turn
 end
 
+
+
 end
